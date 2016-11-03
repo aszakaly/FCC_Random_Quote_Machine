@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+    background: #9EBDF6;
+    font-family: Raleway, sans-serif;
+}
+
+.card {
+    width: 550px;
+    margin: 8% auto auto auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0px 25px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #666;
+}
+
+#quoteBody span {
+    font-size: 100px;
+    opacity: 0.7;
+}
+
+#quoteBody p {
+    text-align: right;
+}
+
+#quote {
+    margin-top: -60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #0357F1;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2D73F3;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#generateQuote {
+    float: right;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.footer a, .footer a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover, .footer a:active {
+    color: #0357F1;
+}
+
